@@ -13,14 +13,14 @@ const Index = () => {
   const description =
     "Portfolio of Pratik Guragain — crafting high-performance, scalable web applications with modern technologies and clean UI.";
 
-  const ogImageUrl = "https://og-image.vercel.app/Pratik%20Guragain.png?theme=dark&md=0&fontSize=100px&images=https://yourdomain.com/assets/og-logo.png";
+  const ogImageUrl = "https://pratikguragain.vercel.app/Pratik%20Guragain.png?theme=dark&md=0&fontSize=100px&images=https://yourdomain.com/assets/og-logo.png";
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Pratik Guragain",
     "jobTitle": "Frontend & Full-Stack Developer",
-    "url": "https://yourdomain.com",
+    "url": "https://pratikguragain.vercel.app/",
     "sameAs": [
       "https://github.com/Prateek2757",
       "https://www.linkedin.com/in/pratik-guragain/"
@@ -32,7 +32,7 @@ const Index = () => {
       <Seo
         title={title}
         description={description}
-        canonical="https://yourdomain.com"
+        canonical="https://pratikguragain.vercel.app/"
         image={ogImageUrl}
         jsonLd={jsonLd}
       />
