@@ -13,7 +13,7 @@ interface SeoProps {
 export const Seo = ({
   title,
   description,
-  canonical = "/",
+  canonical = "https://pratikguragain.vercel.app/",
   image,
   type = "website",
   jsonLd,
