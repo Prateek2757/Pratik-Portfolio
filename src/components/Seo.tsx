@@ -4,7 +4,7 @@ interface SeoProps {
   title: string;
   description: string;
   canonical?: string;
-  image?: string;
+  image?: string; // Absolute URL of OG image
   type?: string;
   jsonLd?: Record<string, any>;
   twitterHandle?: string;
@@ -17,15 +17,21 @@ export const Seo = ({
   image,
   type = "website",
   jsonLd,
-  twitterHandle = "@pratikguragain"
+  twitterHandle = "@pratikguragain",
 }: SeoProps) => {
-  const jsonLdStr = jsonLd ? JSON.stringify(jsonLd) : undefined;
+  const jsonLdStr = jsonLd
+    ? JSON.stringify({
+        ...jsonLd,
+        "@id": canonical, // Reference page URL
+      })
+    : undefined;
 
   return (
     <Helmet>
       {/* Primary Meta */}
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="canonical" href={canonical} />
 
       {/* Open Graph / Facebook */}
@@ -38,6 +44,7 @@ export const Seo = ({
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content={twitterHandle} />
+      <meta name="twitter:creator" content={twitterHandle} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       {image && <meta name="twitter:image" content={image} />}
