@@ -7,13 +7,13 @@ import { Projects } from "@/components/sections/Projects";
 import { Skills } from "@/components/sections/Skills";
 import { Timeline } from "@/components/sections/Timeline";
 import { Contact } from "@/components/sections/Contact";
-
+import landPage from "@/assets/project-7.jpg"
 const Index = () => {
   const title = "Pratik Guragain — Frontend & Full-Stack Developer";
   const description =
     "Portfolio of Pratik Guragain — crafting high-performance, scalable web applications with modern technologies and clean UI.";
 
-  const ogImageUrl = "https://pratikguragain.vercel.app/Pratik%20Guragain.png?theme=dark&md=0&fontSize=100px&images=https://yourdomain.com/assets/og-logo.png";
+  const ogImageUrl = landPage
 
   const jsonLd = {
     "@context": "https://schema.org",
