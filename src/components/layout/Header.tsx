@@ -18,14 +18,14 @@ export const Header = () => {
         </div>
         <div className="flex items-center gap-2">
           <Button asChild variant="outline">
-            <a href="/Pratik_Cv_I.pdf" download>
+            <a href="/pratikcv2025.pdf" download>
               Resume
             </a>
           </Button>
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground" aria-label="GitHub">
+          <a href="https://github.com/Prateek2757" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground" aria-label="GitHub">
             <Github className="h-5 w-5" />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/pratik-guragain-297b0b36a/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground" aria-label="LinkedIn">
             <Linkedin className="h-5 w-5" />
           </a>
           <ThemeToggle />

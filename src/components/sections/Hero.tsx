@@ -53,7 +53,7 @@ export const Hero = () => {
         <motion.div
           animate={{ y: [0, -15, 0] }}
           transition={{ repeat: Infinity, duration: 6 }}
-          className="absolute left-[25%] top-[15%] text-blue-400/70 text-6xl"
+          className="absolute left-[18%] top-[8%] sm:top-[15%] text-blue-400/70 text-6xl"
         >
          <img
             src={nextLogo}
@@ -159,7 +159,7 @@ export const Hero = () => {
               asChild
               className="hover:scale-105 transition-transform duration-200 bg-gradient-to-r from-purple-500 to-blue-500 text-white"
             >
-              <a href="/Pratik_Cv_I.pdf" download className="flex items-center gap-2">
+              <a href="/pratikcv2025.pdf" download className="flex items-center gap-2">
                 Download Resume <Download className="w-4 h-4" />
               </a>
             </Button>
