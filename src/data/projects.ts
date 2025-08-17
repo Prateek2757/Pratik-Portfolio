@@ -75,9 +75,9 @@ export const projects: Project[] = [
     description:
       "Full-stack media sharing app for videos and photos, supporting uploads, streaming, authentication, and CDN optimization for performance.",
     tech: ["Next.js", "Tailwind", "JWT", "ImageKit", "MongoDB"],
-    github: "https://github.com/your-username/reels-photo-pro",
-    live: "https://reels-photo-pro.example.com/",
-    image: proj5,
+    github: "https://github.com/Prateek2757/Image-Kit_Reels-pro",
+    live: "https://image-kit-reels-photo-pro.vercel.app/",
+    image: proj6,
     category: "fullstack",
   },
   {
