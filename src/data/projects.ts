@@ -37,6 +37,17 @@ export const projects: Project[] = [
     category: "fullstack",
   },
   {
+    id: "4",
+    title: "Landing Page",
+    description:
+      "High-performance marketing landing page with SEO, conversion tracking, and modular components optimized for speed and maintainability.",
+    tech: ["Next.js", "Tailwind", "Shadcn", "Aceternity UI", "MongoDB"],
+    github: "https://github.com/Prateek2757/Ck-Soccor",
+    live: "https://cksoccer.vercel.app/",
+    image: proj4,
+    category: "frontend",
+  },
+  {
     id: "2",
     title: "Random Message Generator",
     description:
@@ -58,17 +69,7 @@ export const projects: Project[] = [
     image: proj5,
     category: "fullstack",
   },
-  {
-    id: "4",
-    title: "Landing Page",
-    description:
-      "High-performance marketing landing page with SEO, conversion tracking, and modular components optimized for speed and maintainability.",
-    tech: ["Next.js", "Tailwind", "Shadcn", "Aceternity UI", "MongoDB"],
-    github: "https://github.com/Prateek2757/Ck-Soccor",
-    live: "https://cksoccer.vercel.app/",
-    image: proj4,
-    category: "frontend",
-  },
+
   {
     id: "5",
     title: "Reels Photo Pro",

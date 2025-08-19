@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 
 export const Skills = () => {
   const groups = [
-    { title: "Frontend", icon: Code, items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"] },
+    { title: "Frontend", icon: Code, items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "GraphQL","Tailwind CSS"] },
     { title: "Backend", icon: Server, items: ["Node.js", "Express.js", "REST APIs"] },
     { title: "Database", icon: Database, items: ["MongoDB", "PostgreSQL"] },
     { title: "Tools", icon: Wrench, items: ["Git",  "Vite", "Framer Motion"] },
