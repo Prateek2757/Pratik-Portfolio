@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-<<<<<<< HEAD
 import { ArrowRight, Mail, Download, ShieldCheck } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
@@ -34,18 +33,6 @@ const stackIcons = [
   { label: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
   { label: "Vercel", icon: SiVercel, color: "#111827" },
   { label: "Cloudflare", icon: SiCloudflare, color: "#F38020" },
-=======
-import { ArrowRight, Mail, Download } from "lucide-react";
-import { BackgroundLines } from "../ui/background-lines";
-import { useEffect, useState } from "react";
-import { SiReact, SiNodedotjs, SiMongodb, SiTailwindcss } from "react-icons/si";
-import nextLogo from "@/assets/nextLogo.png";
-const roles = [
-  "Frontend Developer",
-  "Full-Stack Developer",
-  "MERN Stack Specialist",
-  "UI/UX Enthusiast",
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
 ];
 
 export const Hero = () => {
@@ -72,7 +59,6 @@ export const Hero = () => {
 
   return (
     <div className="relative flex items-center justify-center w-full flex-col overflow-hidden">
-<<<<<<< HEAD
       <section
         id="home"
         className="hero-gradient relative min-h-screen w-full overflow-hidden"
@@ -141,75 +127,12 @@ export const Hero = () => {
 
         {/* Content */}
         <div className="relative z-10 container mx-auto flex min-h-screen flex-col items-center justify-center gap-8 py-24 text-center">
-=======
-      <section id="home" className="relative w-full overflow-hidden">
-        
-        {/* Layered Animated Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br  dark:from-[#0f172a] via-[#0f0e25] to-[#0a1a24]  animate-gradient opacity-90" />
-        
-        {/* Background Lines */}
-        <div className="absolute inset-0 pointer-events-none z-0">
-          <BackgroundLines className="w-full h-full opacity-30" >
-          <>
-          </>
-          </BackgroundLines>
-        </div>
-
-        {/* Floating Tech Icons */}
-        <motion.div
-          animate={{ y: [0, -15, 0] }}
-          transition={{ repeat: Infinity, duration: 6 }}
-          className="absolute left-[18%] top-[8%] sm:top-[15%] text-blue-400/70 text-6xl"
-        >
-         <img
-            src={nextLogo}
-            alt="Next.js Logo"
-            className="w-16 h-15 object-contain hover:scale-105 transition-transform duration-200"
-          />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, -15, 0] }}
-          transition={{ repeat: Infinity, duration: 6 }}
-          className="absolute left-[12%] top-[30%] text-blue-400/70 text-6xl"
-        >
-          <SiReact />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, 15, 0] }}
-          transition={{ repeat: Infinity, duration: 5 }}
-          className="absolute right-[15%] top-[40%] text-green-400/70 text-6xl"
-        >
-          <SiNodedotjs />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, -12, 0] }}
-          transition={{ repeat: Infinity, duration: 4 }}
-          className="absolute left-[18%] bottom-[25%] text-emerald-400/70 text-5xl"
-        >
-          <SiMongodb />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, 18, 0] }}
-          transition={{ repeat: Infinity, duration: 7 }}
-          className="absolute right-[20%] bottom-[20%] text-cyan-400/70 text-5xl"
-        >
-          <SiTailwindcss />
-        </motion.div>
-
-        {/* Content */}
-        <div className="relative z-10 container mx-auto flex md:min-h-screen flex-col items-center justify-center gap-8 py-20 text-center">
-          
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
           {/* Typing Animation */}
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-<<<<<<< HEAD
             className="min-h-5 text-sm uppercase tracking-[0.28em] text-primary font-mono"
-=======
-            className="text-sm uppercase tracking-widest text-primary font-mono"
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
           >
             {displayedRole}
             <span className="animate-pulse">|</span>
@@ -222,19 +145,12 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="font-display text-5xl md:text-7xl font-extrabold leading-tight"
           >
-<<<<<<< HEAD
             <span className="text-gradient drop-shadow-sm">
               Pratik Guragain
             </span>
             <span className="block text-3xl font-semibold text-foreground md:text-5xl">
               Full Stack Developer
             </span>
-=======
-            Hi, I’m{" "}
-            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-lg">
-              Pratik Guragain
-            </span>
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
           </motion.h1>
 
           {/* Description */}
@@ -242,7 +158,6 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-<<<<<<< HEAD
             className="max-w-3xl text-lg leading-8 text-muted-foreground"
           >
             I build production-ready web platforms across React, Next.js,
@@ -282,13 +197,6 @@ export const Hero = () => {
             ))}
           </motion.div>
 
-=======
-            className="max-w-2xl text-lg text-muted-foreground"
-          >
-            I craft high-performance, scalable web applications with modern technologies, clean UI, and exceptional user experiences.
-          </motion.p>
-
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
           {/* Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}
@@ -299,11 +207,7 @@ export const Hero = () => {
             <Button
               variant="hero"
               asChild
-<<<<<<< HEAD
               className="hover:scale-105 transition-transform duration-200 shadow-lg shadow-primary/20"
-=======
-              className="hover:scale-105 transition-transform duration-200 shadow-lg shadow-blue-500/20"
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
             >
               <a href="#projects" className="flex items-center gap-2">
                 View Projects <ArrowRight className="w-4 h-4" />
@@ -323,7 +227,6 @@ export const Hero = () => {
             <Button
               variant="secondary"
               asChild
-<<<<<<< HEAD
               className="hover:scale-105 transition-transform duration-200"
             >
               <a
@@ -331,11 +234,6 @@ export const Hero = () => {
                 download
                 className="flex items-center gap-2"
               >
-=======
-              className="hover:scale-105 transition-transform duration-200 bg-gradient-to-r from-purple-500 to-blue-500 text-white"
-            >
-              <a href="/pratikcv2025.pdf" download className="flex items-center gap-2">
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
                 Download Resume <Download className="w-4 h-4" />
               </a>
             </Button>
@@ -344,8 +242,4 @@ export const Hero = () => {
       </section>
     </div>
   );
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487

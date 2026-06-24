@@ -12,8 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
-<<<<<<< HEAD
 
 Sitemap: https://www.guragainpratik.com.np/sitemap.xml
-=======
->>>>>>> cf59bf9afeba037c5568d19527334507624a4487
