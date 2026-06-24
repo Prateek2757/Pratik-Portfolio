@@ -1,4 +1,5 @@
 import proj1 from "@/assets/project-1.jpg";
+<<<<<<< HEAD
 import proj3 from "@/assets/project-3.jpg";
 import proj4 from "@/assets/project-4.png";
 import proj5 from "@/assets/project-5.jpg";
@@ -17,6 +18,20 @@ export type Project = {
   result: string;
   tech: string[];
   github?: string;
+=======
+import proj2 from "@/assets/project-2.jpg";
+import proj3 from "@/assets/project-3.jpg";
+import proj4 from "@/assets/project-4.png";
+import proj5 from "@/assets/project-5.jpg";
+import proj6 from "@/assets/project-6.jpg";
+
+export type Project = {
+  id: string;
+  title: string;
+  description: string;
+  tech: string[];
+  github: string;
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
   live: string;
   image: string;
   category: "frontend" | "backend" | "fullstack";
@@ -25,6 +40,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "1",
+<<<<<<< HEAD
     slug: "student-dashboard",
     title: "Student Dashboard",
     description:
@@ -43,6 +59,11 @@ export const projects: Project[] = [
       "Keeping data-heavy screens readable while preserving quick filtering and a clean responsive layout.",
     result:
       "Delivered a practical dashboard experience that turns student records into usable admin insights.",
+=======
+    title: "Student Dashboard",
+    description:
+      "Interactive SaaS dashboard featuring charts, filters, role-based access, and real-time analytics for student performance tracking.",
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
     tech: [
       "React",
       "TypeScript",
@@ -59,6 +80,7 @@ export const projects: Project[] = [
   },
   {
     id: "4",
+<<<<<<< HEAD
     slug: "ck-soccer-landing-page",
     title: "Landing Page",
     description:
@@ -77,6 +99,11 @@ export const projects: Project[] = [
       "Balancing visual polish with simple, maintainable components and fast page loading.",
     result:
       "Created a focused marketing page with clear content hierarchy and production-ready delivery.",
+=======
+    title: "Landing Page",
+    description:
+      "High-performance marketing landing page with SEO, conversion tracking, and modular components optimized for speed and maintainability.",
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
     tech: ["Next.js", "Tailwind", "Shadcn", "Aceternity UI", "MongoDB"],
     github: "https://github.com/Prateek2757/Ck-Soccor",
     live: "https://cksoccer.vercel.app/",
@@ -85,6 +112,7 @@ export const projects: Project[] = [
   },
   {
     id: "2",
+<<<<<<< HEAD
     slug: "taskoria",
     title: "Taskoria",
     description:
@@ -106,10 +134,20 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "Responsive UI"],
     live: "https://www.taskoria.com/",
     image: taskoriaImage,
+=======
+    title: "Random Message Generator",
+    description:
+      "Full-stack app generating and storing random messages with analytics, built using Next.js, Express, MongoDB, and a responsive Tailwind UI.",
+    tech: ["Next.js", "Tailwind", "Shadcn", "AUTH.js", "TypeScript", "MongoDB"],
+    github: "https://github.com/Prateek2757/RAMDOM-MESSAGE-GENERATOR",
+    live: "https://vercel.com/pratik-guragains-projects",
+    image: proj2,
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
     category: "fullstack",
   },
   {
     id: "3",
+<<<<<<< HEAD
     slug: "postit-nepal",
     title: "PostIt Nepal",
     description:
@@ -128,6 +166,11 @@ export const projects: Project[] = [
       "Making nested community interactions clear across desktop and mobile screens.",
     result:
       "Built a functional community platform with structured content and usable interaction patterns.",
+=======
+    title: "PostIt Nepal",
+    description:
+      "Community platform for creating posts, comments, replies, and likes, using Next.js, Sanity CMS, and a fully responsive Tailwind-based design.",
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
     tech: ["Next.js", "Tailwind", "Shadcn", "Cleark", "Sanity"],
     github: "https://github.com/Prateek2757/PostitNepal",
     live: "https://postit-nepal.vercel.app/",
@@ -137,6 +180,7 @@ export const projects: Project[] = [
 
   {
     id: "5",
+<<<<<<< HEAD
     slug: "sun-connect",
     title: "Sun Connect",
     description:
@@ -158,10 +202,20 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "REST APIs"],
     live: "https://sunconnect.sunlife.com.np/en/login",
     image: sunConnectImage,
+=======
+    title: "Reels Photo Pro",
+    description:
+      "Full-stack media sharing app for videos and photos, supporting uploads, streaming, authentication, and CDN optimization for performance.",
+    tech: ["Next.js", "Tailwind", "JWT", "ImageKit", "MongoDB"],
+    github: "https://github.com/Prateek2757/Image-Kit_Reels-pro",
+    live: "https://image-kit-reels-photo-pro.vercel.app/",
+    image: proj6,
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
     category: "fullstack",
   },
   {
     id: "6",
+<<<<<<< HEAD
     slug: "cosmotech-frontend-contribution",
     title: "Cosmotech International - Frontend Contribution",
     description:
@@ -180,6 +234,11 @@ export const projects: Project[] = [
       "Maintaining consistency across real client requirements, existing design choices, and production constraints.",
     result:
       "Contributed to a live professional website with maintainable frontend delivery.",
+=======
+    title: "Cosmotech International - Frontend Contribution",
+    description:
+      "Worked on responsive UI development for Cosmotech International, integrating APIs and building accessible layouts using Next.js and Tailwind.",
+>>>>>>> cf59bf9afeba037c5568d19527334507624a4487
     tech: ["Next.js", "Tailwind CSS", "REST API Integration"],
     github: "https://github.com/Prateek2757",
     live: "https://cosmotechintl.com/",
